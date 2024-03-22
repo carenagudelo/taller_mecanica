@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#3a3d47;
+}
+.contenedor{
+    width: 1200px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+.head1{
+    background-color: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    margin: 15px 50px;
+}
+.img_logo{
+    width: 300px;
+}
+.menu{
+    float: right;
+    margin: 25px 80px;
+}
+ul {
+    list-style: none;
+}
+li{
+    float: left;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+li:hover{
+    background-color:#062348;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    font-size: 19px;
+    color:aquamarine
+}
+.banner_img{
+    width: 100%;
+}
+.titulo_center{
+    color: #ff7600;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+.cards{
+    background-color: #fff;
+    overflow: hidden;
+}
+.card{
+    width: 380px;
+    height: 450px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin: 10px 0px 10px 13px;
+}
+.img{
+    background-color: #1551a1;
+}
+.img img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.img h2{
+    color:#fff;
+    text-align: center;  
+    padding: 8px;
+}
+.contenido{
+    text-align: justify;
+    padding: 8px;
+}
+.contenido button{
+    background-color:#1551a1;
+    padding: 10px;
+    color: #fff;
+    margin-left: 130px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.contenido button:hover{
+    cursor: pointer;
+    padding: 12px;
+    background-color:#062348;
+}
+.footer{
+    background-color: #062348;
+    overflow: hidden;
+    height: 150px;
+}
+.izq{
+    background-color: #062348;
+    overflow: hidden;
+    margin-left: 25px;
+    width: 480px;
+    color: #fff;
+    float: left;
+}
+.izq img{
+    background-color: #062348;
+    margin: 15px 150px;
+    
+}
+.der{
+    margin: 10px 680px;
+    width: 480px;
+}
+.der h3{
+    color: #fff;
+    margin: 20px 0px 3px 150px;
+}
+.der img{
+    margin: 5px 0px 0px 10px;
+}
+.redes{
+    padding: 10px 60px;
+}
+
+.formulario {
+    width: 500px;
+    margin: 15px 350px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.titulo{
+    color:#1551a1;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Rubik Bubbles;
+    padding: 5px;
+}
+
+.subtitulo{
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.fila{
+    width: 400px;
+    margin-left: 50px;
+    overflow: hidden;
+    padding: 4px;
+}
+
+label {
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    float: right;
+    width: 200px;
+    border-radius: 4px;
+    height: 20px;
+}
+textarea{
+    border-radius: 4px;
+}
+.btnEnviar{
+    text-align: center;
+    color: white;
+    background-color: #062348;
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 6px;
+    width: 100px;
+    font-size: 17px;
+}
+
